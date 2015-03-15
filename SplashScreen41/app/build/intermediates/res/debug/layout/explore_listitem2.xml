@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:descendantFocusability="blocksDescendants">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <View  style="@style/listview_vertical"/> 
+        <TextView  
+           android:id="@+id/maintenanceDate"  
+           android:layout_width="100dip"  
+           android:layout_height="40dip"  
+           style="@style/listview_textstyle"
+           />  
+  
+  		<View  style="@style/listview_vertical"/>  
+    	<TextView  
+        	android:id="@+id/faultDescribe"  
+        	android:layout_width="120dip"  
+       		android:layout_height="wrap_content"  
+        	style="@style/listview_textstyle"
+        	/>  
+  
+    	<View  style="@style/listview_vertical"/>  
+	 	<TextView  
+        	android:id="@+id/maintenanceDescribe"  
+       		android:layout_width="120dip"  
+        	android:layout_height="wrap_content"  
+        	style="@style/listview_textstyle"
+        	/>  
+  		<View  style="@style/listview_vertical"/>  
+    	<TextView  
+        	android:id="@+id/maintenancerName"  
+        	android:layout_width="80dip"  
+        	android:layout_height="wrap_content"  
+        	style="@style/listview_textstyle"
+        	/>  
+  
+    	<View  style="@style/listview_vertical"/> 
+    </LinearLayout>
+    <View style="@style/listview_horizontal"/>
+</LinearLayout><!-- From: file:/G:/Projects/SplashScreen41/app/src/main/res/layout/explore_listitem2.xml -->

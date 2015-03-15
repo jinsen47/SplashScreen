@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal">
+    <!-- mydialog message部分自定义 -->
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/serverlinear1"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="IP地址"
+            android:textColor="#FFFFFF"/>
+        <EditText 
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:id="@+id/server_ip"
+            android:textSize="15sp"
+            android:hint="255.255.255.255"/>
+        <TextView 
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="端口"
+            android:textColor="#FFFFFF"/>
+        <EditText 
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:id="@+id/server_port"
+            android:textSize="15sp"
+            android:hint="8080"/>
+    </LinearLayout>	
+    <LinearLayout 
+        android:layout_below="@id/serverlinear1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView 
+            android:text="设置城市"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#FFFFFF"/>
+        <EditText 
+            android:hint="最小县级市,如'义乌' "
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/setCity"
+            android:textSize="15sp"/>
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/G:/Projects/SplashScreen41/app/src/main/res/layout/dialogserversetting.xml -->

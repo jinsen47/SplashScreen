@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#5BC3B8">
+    
+ 	<HorizontalScrollView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+             <View  style="@style/listview_horizontal"/>  
+             <LinearLayout 
+       			android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:orientation="horizontal"
+       			android:background="#DBEEF4">
+  				<!-- 添加竖线 -->
+   				<View  style="@style/listview_vertical"/> 
+    			<TextView
+    			    android:text="户号"
+    			    android:id="@+id/cons_no_title"
+        			android:layout_width="120dip"  
+        			android:layout_height="40dip"  
+        			style="@style/listview_textstyle"/>  
+  				<View  style="@style/listview_vertical"/>  
+    			<TextView  
+        			android:text="户名" 
+        			android:id="@+id/cons_name_title" 
+        			android:layout_width="80dip"  
+        			android:layout_height="wrap_content"  
+        			style="@style/listview_textstyle"/>  
+  
+    			<View  style="@style/listview_vertical"/>  
+    			<TextView  
+        			android:text="受电地址"  
+        			android:id="@+id/cons_address_title"
+        			android:layout_width="270dip"  
+        			android:layout_height="wrap_content"  
+       				style="@style/listview_textstyle"/>  
+  
+    			<View  style="@style/listview_vertical"/>  
+   	 			<TextView  
+        			android:text="采集RTUA" 
+        			android:id="@+id/rtua_title" 
+        			android:layout_width="100dip"  
+        			android:layout_height="wrap_content"  
+        			style="@style/listview_textstyle"/>  
+  
+        		<View  style="@style/listview_vertical"/>  
+       			<TextView  
+        			android:text="表地址"  
+        			android:id="@+id/metet_code_title"
+        			android:layout_width="220dip"  
+        			android:layout_height="wrap_content"  
+       		 		style="@style/listview_textstyle"/> 
+       			<View  style="@style/listview_vertical"/>  
+       			<TextView  
+        			android:text="故障类型"  
+        			android:id="@+id/falsecode_title"
+        			android:layout_width="100dip"  
+        			android:layout_height="wrap_content"  
+        			style="@style/listview_textstyle"/>  
+       			<View  style="@style/listview_vertical"/>   
+			</LinearLayout>
+			<View  style="@style/listview_horizontal"/> 
+		 	<ListView  
+        		android:id="@+id/conslistview"  
+        		android:layout_width="wrap_content"  
+        		android:layout_height="wrap_content" />
+        	</LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout><!-- From: file:/G:/Projects/SplashScreen41/app/src/main/res/layout/conslistview.xml -->

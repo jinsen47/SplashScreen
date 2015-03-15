@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\Projects\SplashScreen41\app\libs\ksoap2-android-assembly-3.0.0-RC.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f8ddd5d69d8cdc994cde9af278ff79b06365eee3">
+        <dex dex="G:\Projects\SplashScreen41\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-3.0.0-RC.4-jar-with-dependencies-587b82d3cbd17ca6f5694b77fe7f84cf452ba52b.jar" />
+    </item>
+    <item
+        jar="G:\Projects\SplashScreen41\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="G:\Projects\SplashScreen41\app\build\intermediates\pre-dexed\debug\classes-2fbd06698342fa5f011ca098a9e6ac0cd924c2be.jar" />
+    </item>
+    <item
+        jar="G:\Projects\SplashScreen41\app\libs\locSDK_3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="09224a1883da8b5bd37e766f4fab80570d879898">
+        <dex dex="G:\Projects\SplashScreen41\app\build\intermediates\pre-dexed\debug\locSDK_3.1-ea994b034357c927cfa931d4e081c382c4dca3e3.jar" />
+    </item>
+    <item
+        jar="F:\Android Developing Envoriment\Android SDK\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="G:\Projects\SplashScreen41\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-1aff65597583da589a401e461924fd87816efb0b.jar" />
+    </item>
+    <item
+        jar="G:\Projects\SplashScreen41\app\libs\baidumapapi_v2_1_0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d052dfca522cab163f492d7b8e340ea194f63fef">
+        <dex dex="G:\Projects\SplashScreen41\app\build\intermediates\pre-dexed\debug\baidumapapi_v2_1_0-e6988d60447158732dc25149d9d4eecc01c4f8d1.jar" />
+    </item>
+    <item
+        jar="G:\Projects\SplashScreen41\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="G:\Projects\SplashScreen41\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-6e50dedc6e17d8694d879ca68a2fdaf78f22b594.jar" />
+    </item>
+
+</items>

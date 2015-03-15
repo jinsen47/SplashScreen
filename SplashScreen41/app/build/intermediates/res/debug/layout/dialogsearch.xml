@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_linear"
+        android:orientation="horizontal">
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search32"
+            android:layout_gravity="center"/>
+        <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_et"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <RadioGroup 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_linear"
+        android:id="@+id/search_group"
+        android:orientation="vertical">
+        <RadioButton 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="按户号搜索"
+            android:textColor="#FFFFFF"
+            android:id="@+id/searchByCons_no"/>
+       <RadioButton 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="按户名搜索"
+             android:textColor="#FFFFFF"
+            android:id="@+id/searchByCons_name"/>
+       <RadioButton 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="按表号搜索"
+             android:textColor="#FFFFFF"
+            android:id="@+id/searchByMeter_code"/>
+       <RadioButton 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="按全表搜索"
+             android:textColor="#FFFFFF"
+            android:id="@+id/searchByConsTable"/>
+    </RadioGroup>
+
+</RelativeLayout>
+<!-- From: file:/G:/Projects/SplashScreen41/app/src/main/res/layout/dialogsearch.xml -->

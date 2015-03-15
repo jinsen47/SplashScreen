@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <View  style="@style/listview_vertical"/> 
+    <TextView 
+        android:id="@+id/constitles"
+        android:layout_width="0px"
+        android:gravity="center_horizontal"
+        android:layout_height="51dp"
+        android:layout_weight="1"
+        />
+    <TextView 
+        android:id="@+id/consdata"
+        android:layout_width="0px"
+        android:layout_height="51dp"
+        android:layout_weight="3"
+        />
+	 <View  style="@style/listview_vertical"/> 
+</LinearLayout>

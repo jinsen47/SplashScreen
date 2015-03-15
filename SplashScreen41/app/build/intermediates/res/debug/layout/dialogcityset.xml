@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal">
+    <!-- mydialog message部分自定义 -->
+       <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/mapLinear1"
+        android:orientation="horizontal">
+        <TextView 
+            android:id = "@+id/city_textview2"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="起点城市"
+            android:textColor="#FFFFFF"/>
+        <EditText 
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:id="@+id/city_first_name2"
+            android:textSize="15sp"
+            android:text = ""/>
+     
+        </LinearLayout>
+        <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/mapLinear2"
+        android:orientation="horizontal"> 
+        <TextView 
+            android:id = "@+id/locfirst_textview2"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="终点城市"
+            android:textColor="#FFFFFF"/>
+        <EditText 
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:id="@+id/city_end_name2"
+            android:textSize="15sp"
+            android:hint=""/>
+     </LinearLayout>
+      
+      
+</LinearLayout><!-- From: file:/G:/Projects/SplashScreen41/app/src/main/res/layout/dialogcityset.xml -->

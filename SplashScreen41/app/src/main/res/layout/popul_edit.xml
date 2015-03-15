@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/popullistview_bg">
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="请输入内容"
+        android:textSize="15sp"
+        android:layout_margin="3dp"
+     	android:gravity="center" />   
+    <EditText  android:id="@+id/edit_text"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:singleLine="false"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="2dp"
+        android:background="@drawable/populedit_bg"/>
+    
+    <LinearLayout android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <Button
+           android:id="@+id/button_ok"
+           android:text="保存"
+           android:textSize="15sp"
+           android:gravity="center" 
+           android:layout_width="0px"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="2dp"
+           android:layout_weight="1"/>
+        <Button 
+            android:id="@+id/button_cancel"
+            android:text="重置"
+            android:textSize="15sp"
+            android:gravity="center" 
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"/>
+        
+    	</LinearLayout>
+      </LinearLayout>
+    </ScrollView>
+</LinearLayout>

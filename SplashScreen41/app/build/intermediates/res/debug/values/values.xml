@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/G:/Projects/SplashScreen41/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="focus_color">#aa0000</color>
+    <color name="grid_bg_color">#666666</color>
+    <color name="list_divider">#AA66CC</color>
+    <!-- From: file:/G:/Projects/SplashScreen41/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/G:/Projects/SplashScreen41/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">电力派单助手</string>
+    <string name="clean_all">清空所有数据</string>
+    <string name="clean_finished">清空已完成任务</string>
+    <string name="download_codes">下载编码表</string>
+    <string name="download_cons">下载用户表</string>
+    <string name="download_tasks">下载工单表</string>
+    <!-- From: file:/G:/Projects/SplashScreen41/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="activityMapTitlebar" parent="android:Theme.Light">
+                <item name="android:windowTitleSize">40dp</item> <!-- 高度 -->
+                <item name="android:windowTitleBackgroundStyle">@style/titleBgGreen</item><!-- 背景色,需要调用前面的颜色设置 -->
+    </style>
+    <style name="activityTitlebar" parent="android:Theme.Light">
+                <item name="android:windowTitleSize">36dp</item> <!-- 高度 -->
+                <item name="android:windowTitleBackgroundStyle">@style/titleBg</item><!-- 背景色,需要调用前面的颜色设置 -->
+    </style>
+    <style name="listview_horizontal">
+        <item name="android:layout_height">0.5px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#B8B8B8</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="listview_textstyle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <!--  android:textColor="#CD3700"  --> 
+    </style>
+    <style name="listview_vertical">
+        <item name="android:layout_width">0.5px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#B8B8B8</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="popup_horizontal">
+        <item name="android:layout_height">0.5px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#BFBFBF</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="rightfragment_textstyle">
+        <item name="android:background">#5BC3B8</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2dp</item>
+    </style>
+    <style name="rightfragment_textstyle1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2dp</item>
+    </style>
+    <style name="setting_horizontal">
+        <item name="android:layout_height">0.5px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#B8FFE3</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="titleBg">
+        <item name="android:background">#808080</item>
+    </style>
+    <style name="titleBgGreen">
+        <item name="android:background">#5BC3B8</item> <!-- 绿色 -->
+    </style>
+</resources>

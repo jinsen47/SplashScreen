@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#B8FFE3"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+    android:paddingTop="20dip">
+        <Button 
+        android:text="@string/download_codes"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:id="@+id/download_codes"
+        style="@style/rightfragment_textstyle"
+        />
+        <Button 
+        android:text="@string/download_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_marginTop="5dip"
+        style="@style/rightfragment_textstyle"
+        android:id="@+id/download_tasks"/>
+        <Button 
+        android:text="@string/download_cons"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_marginTop="5dip"
+        style="@style/rightfragment_textstyle"
+        android:id="@+id/download_cons"/>
+  	   <Button 
+       android:text="@string/clean_finished"
+       android:id="@+id/Delete_task"
+       android:layout_marginTop="20dip"
+       android:layout_width="match_parent"
+       android:layout_height="45dip"
+       style="@style/rightfragment_textstyle"/>
+     <Button 
+       android:text="@string/clean_all"
+       android:id="@+id/Delete_all"
+       android:layout_marginTop="5dip"
+       android:layout_width="match_parent"
+       android:layout_height="45dip"
+       style="@style/rightfragment_textstyle"/>
+</LinearLayout>
+<!-- From: file:/G:/Projects/SplashScreen41/app/src/main/res/layout/download.xml -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">电力派单助手</string>
+    <string name="action_settings">Settings</string>
+   <!-- download -->
+   <string name="download_codes">下载编码表</string>
+   <string name="download_tasks">下载工单表</string>
+   <string name="download_cons">下载用户表</string>
+   <string name="clean_finished">清空已完成任务</string>
+   <string name="clean_all">清空所有数据</string>
+</resources>

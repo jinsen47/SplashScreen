@@ -1,0 +1,253 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:10:1
+	android:name
+		ADDED from AndroidManifest.xml:10:18
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:12:1
+	android:name
+		ADDED from AndroidManifest.xml:12:18
+uses-permission#android.permission.REORDER_TASKS
+ADDED from AndroidManifest.xml:14:1
+	android:name
+		ADDED from AndroidManifest.xml:14:18
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:16:1
+	android:name
+		ADDED from AndroidManifest.xml:16:18
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from AndroidManifest.xml:18:1
+	android:name
+		ADDED from AndroidManifest.xml:18:18
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:21:1
+	android:name
+		ADDED from AndroidManifest.xml:21:18
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:24:1
+	android:name
+		ADDED from AndroidManifest.xml:24:18
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:26:1
+	android:name
+		ADDED from AndroidManifest.xml:26:18
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:29:1
+	android:name
+		ADDED from AndroidManifest.xml:29:18
+permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from AndroidManifest.xml:31:1
+	android:name
+		ADDED from AndroidManifest.xml:31:13
+uses-permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from AndroidManifest.xml:33:1
+	android:name
+		ADDED from AndroidManifest.xml:33:18
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:35:1
+	android:name
+		ADDED from AndroidManifest.xml:35:18
+uses-permission#android.permission.ACCES_MOCK_LOCATION
+ADDED from AndroidManifest.xml:37:1
+	android:name
+		ADDED from AndroidManifest.xml:37:18
+uses-permission#android.permission.ACCESS_GPS
+ADDED from AndroidManifest.xml:39:1
+	android:name
+		ADDED from AndroidManifest.xml:39:18
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from AndroidManifest.xml:40:1
+	android:name
+		ADDED from AndroidManifest.xml:40:18
+uses-permission#android.permission.READ_LOGS
+ADDED from AndroidManifest.xml:41:1
+	android:name
+		ADDED from AndroidManifest.xml:41:18
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:42:1
+	android:name
+		ADDED from AndroidManifest.xml:42:18
+uses-feature#android.hardware.camera
+ADDED from AndroidManifest.xml:43:1
+	android:name
+		ADDED from AndroidManifest.xml:43:15
+uses-feature#android.hardware.camera.autofocus
+ADDED from AndroidManifest.xml:44:1
+	android:required
+		ADDED from AndroidManifest.xml:44:66
+	android:name
+		ADDED from AndroidManifest.xml:44:15
+supports-screens
+ADDED from AndroidManifest.xml:45:1
+	android:resizeable
+		ADDED from AndroidManifest.xml:48:9
+	android:largeScreens
+		ADDED from AndroidManifest.xml:45:20
+	android:anyDensity
+		ADDED from AndroidManifest.xml:49:9
+	android:normalScreens
+		ADDED from AndroidManifest.xml:46:9
+	android:smallScreens
+		ADDED from AndroidManifest.xml:47:9
+application
+ADDED from AndroidManifest.xml:50:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:53:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:54:9
+	android:icon
+		ADDED from AndroidManifest.xml:52:9
+	android:theme
+		ADDED from AndroidManifest.xml:55:9
+	android:name
+		ADDED from AndroidManifest.xml:51:9
+activity#com.example.splashscreen.SplashScreen4
+ADDED from AndroidManifest.xml:57:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:60:13
+	android:label
+		ADDED from AndroidManifest.xml:59:13
+	android:name
+		ADDED from AndroidManifest.xml:58:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:61:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:62:17
+	android:name
+		ADDED from AndroidManifest.xml:62:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:64:17
+	android:name
+		ADDED from AndroidManifest.xml:64:27
+activity#com.example.splashscreen.LoginActivity
+ADDED from AndroidManifest.xml:67:9
+	android:name
+		ADDED from AndroidManifest.xml:68:13
+activity#com.example.splashscreen.MenuActivity
+ADDED from AndroidManifest.xml:71:9
+	android:theme
+		ADDED from AndroidManifest.xml:73:13
+	android:name
+		ADDED from AndroidManifest.xml:72:13
+activity#com.example.splashscreen.Download
+ADDED from AndroidManifest.xml:75:9
+	android:theme
+		ADDED from AndroidManifest.xml:77:13
+	android:name
+		ADDED from AndroidManifest.xml:76:13
+activity#com.example.splashscreen.ExploreHistory
+ADDED from AndroidManifest.xml:79:9
+	android:theme
+		ADDED from AndroidManifest.xml:81:13
+	android:name
+		ADDED from AndroidManifest.xml:80:13
+activity#com.example.splashscreen.TaskListView
+ADDED from AndroidManifest.xml:83:9
+	android:theme
+		ADDED from AndroidManifest.xml:85:13
+	android:name
+		ADDED from AndroidManifest.xml:84:13
+activity#com.example.splashscreen.ConsListview
+ADDED from AndroidManifest.xml:87:9
+	android:theme
+		ADDED from AndroidManifest.xml:89:13
+	android:name
+		ADDED from AndroidManifest.xml:88:13
+activity#com.example.splashscreen.Fragment2Activity
+ADDED from AndroidManifest.xml:91:9
+	android:theme
+		ADDED from AndroidManifest.xml:93:13
+	android:name
+		ADDED from AndroidManifest.xml:92:13
+activity#com.example.splashscreen.ExploreActivity
+ADDED from AndroidManifest.xml:95:9
+	android:theme
+		ADDED from AndroidManifest.xml:97:13
+	android:name
+		ADDED from AndroidManifest.xml:96:13
+activity#com.example.splashscreen.SettingActivity
+ADDED from AndroidManifest.xml:99:10
+	android:theme
+		ADDED from AndroidManifest.xml:101:13
+	android:name
+		ADDED from AndroidManifest.xml:100:13
+activity#com.example.splashscreen.LocationCaptureActivity
+ADDED from AndroidManifest.xml:103:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:105:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:106:13
+	android:name
+		ADDED from AndroidManifest.xml:104:13
+activity#com.example.splashscreen.MapBaiduActivity
+ADDED from AndroidManifest.xml:109:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:111:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:112:13
+	android:name
+		ADDED from AndroidManifest.xml:110:13
+activity#com.example.splashscreen.RoutePlanDemo
+ADDED from AndroidManifest.xml:115:10
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:117:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:118:13
+	android:name
+		ADDED from AndroidManifest.xml:116:13
+activity#com.example.splashscreen.RoutePlanDemo2
+ADDED from AndroidManifest.xml:120:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:122:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:123:13
+	android:name
+		ADDED from AndroidManifest.xml:121:13
+activity#com.example.splashscreen.MapFivePointActivity
+ADDED from AndroidManifest.xml:125:10
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:127:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:128:13
+	android:theme
+		ADDED from AndroidManifest.xml:129:13
+	android:name
+		ADDED from AndroidManifest.xml:126:13
+activity#com.example.splashscreen.TakePhotoActivity
+ADDED from AndroidManifest.xml:131:9
+	android:name
+		ADDED from AndroidManifest.xml:133:13
+service#com.baidu.location.f
+ADDED from AndroidManifest.xml:136:10
+	android:process
+		ADDED from AndroidManifest.xml:138:4
+	android:enabled
+		ADDED from AndroidManifest.xml:137:49
+	android:name
+		ADDED from AndroidManifest.xml:137:13

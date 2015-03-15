@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical"
+    android:background="@drawable/splash_background">
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal"
+        android:paddingTop="10dip">
+      <ImageView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/logo2"/> 
+    </LinearLayout>
+<TextView  
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="智能手机电力作业助手"
+	android:typeface="serif"
+	android:shadowDx="0"
+	android:shadowDy="2"
+	android:shadowRadius="1"
+	android:shadowColor="#FFFFFF"
+	android:textColor="#006f68"
+	android:textSize="20sp"
+	android:id="@+id/TextView01"
+	android:gravity="bottom"
+	android:layout_gravity="right"
+	android:paddingRight="15dip"
+	android:paddingTop="20dip">
+</TextView>
+<!-- 以后可以补充版本号检测进行升级 -->
+</LinearLayout><!-- From: file:/G:/Projects/SplashScreen41/app/src/main/res/layout/activity_splash_screen.xml -->

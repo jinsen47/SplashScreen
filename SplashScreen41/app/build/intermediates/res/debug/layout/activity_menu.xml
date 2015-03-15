@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5BC3B8">
+ 
+<GridView 
+    android:id="@+id/homeGrid" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:numColumns="auto_fit"
+    android:columnWidth="90dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center">    
+</GridView>
+</LinearLayout><!-- From: file:/G:/Projects/SplashScreen41/app/src/main/res/layout/activity_menu.xml -->

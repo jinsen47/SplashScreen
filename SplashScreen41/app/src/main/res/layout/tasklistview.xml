@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical"
+    android:background="#5BC3B8">  
+   
+ 	 <HorizontalScrollView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View  style="@style/listview_horizontal"/>  
+           <LinearLayout 
+       		android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:orientation="horizontal"
+       		android:background="#DBEEF4">
+  			<!-- 添加竖线 -->
+    		<View  style="@style/listview_vertical"/> 
+    		<TextView  
+        		android:text="工单号"  
+       			android:layout_width="75dip"  
+        		android:layout_height="40dip"  
+        		style="@style/listview_textstyle"/>  
+  			<View  style="@style/listview_vertical"/>  
+    		<TextView  
+        		android:text="供电所"  
+        		android:layout_width="100dip"  
+        		android:layout_height="wrap_content"  
+        		style="@style/listview_textstyle"/>  
+    		<View  style="@style/listview_vertical"/>  
+    		<TextView  
+        		android:text="台区名称"  
+        		android:layout_width="100dip"  
+        		android:layout_height="wrap_content"  
+       			style="@style/listview_textstyle"/>  
+    		<View  style="@style/listview_vertical"/>  
+    		<TextView  
+        		android:text="故障"  
+        		android:layout_width="150dip"  
+        		android:layout_height="wrap_content"  
+        		style="@style/listview_textstyle"/>  
+        	<View  style="@style/listview_vertical"/>  
+       		<TextView  
+        		android:text="创建时间"  
+        		android:layout_width="100dip"  
+        		android:layout_height="wrap_content"  
+        		style="@style/listview_textstyle"/> 
+       		<View  style="@style/listview_vertical"/>   
+		</LinearLayout>
+		<View  style="@style/listview_horizontal"/>   
+        <ListView 
+        	android:id="@+id/tasklistview"  
+        	android:layout_width="wrap_content"  
+        	android:layout_height="wrap_content" 
+      	/>  
+       </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout> 

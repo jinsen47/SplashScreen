@@ -1,0 +1,75 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+	<style name="listview_textstyle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <!--  android:textColor="#CD3700"  --> 
+    </style>
+    <style name="listview_vertical">
+        <item name="android:layout_width">0.5px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#B8B8B8</item>
+        <item  name="android:visibility">visible</item>
+    </style>
+     <style name="listview_horizontal">
+        <item name="android:layout_height">0.5px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#B8B8B8</item>
+        <item  name="android:visibility">visible</item>
+    </style>
+    <style name="popup_horizontal">
+        <item name="android:layout_height">0.5px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#BFBFBF</item>
+        <item  name="android:visibility">visible</item>
+    </style>
+    <style name="setting_horizontal">
+        <item name="android:layout_height">0.5px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#B8FFE3</item>
+        <item  name="android:visibility">visible</item>
+    </style>
+    <style name="rightfragment_textstyle">
+        <item name="android:background">#5BC3B8</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2dp</item>
+    </style>
+    <style name="rightfragment_textstyle1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2dp</item>
+    </style>
+    
+    <style name="titleBg">
+        <item name="android:background">#808080</item>
+    </style>
+    <style name="titleBgGreen">
+        <item name = "android:background">#5BC3B8</item> <!-- 绿色 -->
+    </style>
+    <style name="activityTitlebar" parent="android:Theme.Light">
+                <item name="android:windowTitleSize">36dp</item> <!-- 高度 -->
+                <item name="android:windowTitleBackgroundStyle">@style/titleBg</item><!-- 背景色,需要调用前面的颜色设置 -->
+    </style>
+     <style name="activityMapTitlebar" parent="android:Theme.Light">
+                <item name="android:windowTitleSize">40dp</item> <!-- 高度 -->
+                <item name="android:windowTitleBackgroundStyle">@style/titleBgGreen</item><!-- 背景色,需要调用前面的颜色设置 -->
+    </style>
+</resources>
